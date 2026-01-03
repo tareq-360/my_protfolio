@@ -33,3 +33,17 @@ li{
 a{
     text-decoration: none;
 }
+.pic{
+    border: 5px double;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    
+}
+.name{
+    text-align: center;
+}
