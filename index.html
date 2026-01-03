@@ -3,42 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my_Portfolio</title>
-    <link rel="stylesheet" href="style.css">        
+    <title>Md Tareq Hossain | portfolio  </title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <div>
-        <nav>
-            <ul>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="working_skill.html">Working Skills</a></li>
-                <li><a href="contact.html">Contact </a></li>
-            </ul>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+   
 
-        </nav>
-    </div>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="working_skill.html">Skills</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <img src="images/sut-fit.jpg" alt="Md Tareq Hossain" class="profile-img">
+        <h1>MD TAREQ HOSSAIN</h1>
+        <P>Web Developer</P>
     </header>
-    <main>
-        <div>
-        
-        <div class="photo">
-            <img src="images/sut-fit.jpg" alt="Photo" class="pic"> 
-            
-            <h4 class="name">MD TAREQ HOSSAIN </h4>
-            
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer skilled in HTML,CSS,JavaScript, and PHP </p>
+    </section>
+
+    <section id="skills">
+        <h2>skills </h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>projects</h2>
+        <div class="project">
+            <h3>project one </h3>
+            <p>Simple web application using PHP & MySQL</p>
         </div>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea saepe in provident ipsa commodi nostrum esse, suscipit quibusdam quod unde laudantium nobis praesentium expedita ipsum. Nostrum ut fuga dicta nesciunt. </p>
-    </div>
-    </main>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: mdtareqhossain2002@gmail.com</p>
+    </section>
+
+    <section id="cv">
+        <div class="cv-container" id="cv-content">
+            <div class="cv-left">
+                <img src="images/eid-pic.jpg" alt="Md Tareq Hossain" class="cv-img">
+                
+                <h2>Md Tareq Hossain</h2>
+                <p class="job">Web  Developer</p>
+                
+                <hr>
+
+                <p><strong>Email: mdtareqhossain2002@gmail.com </strong></p>
+                <p><strong>Phone +88001843341290</strong></p>
+
+                <p><Strong>Location</Strong><br>Bangladesh</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>PHP & MySQL</li>
+                    <li>Bootstrap</li>
+                    <li>C, C++, PYTHON</li>
+                    <li>Data Structure </li>
+                </ul>
+            </div>
+
+
+            <div class="cv-right">
+                <h3>profile</h3>
+                <p>
+                    Passionate web  developer with experience in building responsive website and web application.
+                </p>
+                <h3>projects</h3>
+            <ul>
+                <li>portfolio Website</li>
+                <li>Goat  Farm Management System</li>
+            </ul>
+            y
+            <h3>Education </h3>
+            <p>Diploma in Computer Science and Technology  -  <small>2025</small></p>
+            <p><small>Subject: Computer Science and Technology</small></p>
+            <p>Secondary School Certificate   -  <small>2021</small></p>
+            <p><small>Subject: Commerce</small></p>
+            </div>
+        </div>
+        <button onclick="downloadCV()" class="cv-btn">
+            Download CV (PDF)
+        </button>
+    </section>
+
     <footer>
-        <div>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, iure.</p>
-        </div>
+        <p>&copy; 2025 Md Tareq Hossain</p>
     </footer>
+
+    
 </body>
 </html>
