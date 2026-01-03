@@ -34,14 +34,23 @@ a{
     text-decoration: none;
 }
 .pic{
+    margin:0 auto;
     border: 5px double;
-    border-radius: 10%;
-    width: 200px;
-    height: 200px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
 }
 .photo{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    /* background-color: cornflowerblue; */
+    width: 500px;
+    height: 500px;
+
     
 }
 .name{
