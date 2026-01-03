@@ -1,0 +1,35 @@
+html,body{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+} 
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+nav{
+    
+    background-color: aquamarine;
+    display:flex;
+    justify-content: flex-end;
+   
+    
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+}
